@@ -7,6 +7,10 @@ h1 {
 }
 body {
   background-color: #95f5bc;
+  border-style: solid;
+  border-color: black;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 header {
   background-color: rgb(192, 212, 200, 0.3);
@@ -35,4 +39,8 @@ h2 {
   background-color: rgba(0, 0, 0, 0.3);
   text-shadow: 2px 2px black;
   font-family: "Lucida Console", "Courier New", monospace;
+}
+p, h1, h2, ul 
+{margin-left: 4%;
+margin-right: 4%;
 }
