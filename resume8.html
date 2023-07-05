@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dillan's Resume</title>
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/binary-code.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <style>
+      .hero-banner {
+          background-image: url('css/bruno-guerrero-I9y_cMpSrrE-unsplash.jpg');
+          background-size: cover;
+          background-position: center;
+          
+          height: 450px;
+      }
+  </style>
+  </head>
+
+  <header>
+    <div class="hero-banner">
+      <h1>Resume</h1>
+        <p><b>Dillan Chad Davids</b></p>
+        <p>Aspiring Developer</p>
+        <picture>
+          <source media="(min-width: 1024px)" srcset="assets\images\me.jpg">
+          <source media="(min-width: 768px)" srcset='assets/images/meCopy2.jpg'.jpg">
+          <img src="assets/images/meCopy.jpg" alt="Hero Banner">
+      </picture> 
+        
+    </div> 
+
+     </header>
+
+  <aside>
+      <br />
+    <ul>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+</ul>
+</aside>
+  
+  <body>
+    <br />
+    
+    
+    <br />
+    <article>
+      <h2 id="education">Education</h2>
+      <p>
+        <b
+          >Intro to Web at
+          <a href="http://www.codespace.co.za/">CodeSpace</a></b
+        >
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <p><b>Qualification 2</b></p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <h2 id="experience">Experience</h2>
+      <p><b>Job 1</b></p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <p><b>Job 2</b></p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <h2 id="skills">Skills</h2>
+      <ul>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+      </ul>
+    </article>
+
+    <br />
+    <footer>
+      <h2 id="contact">Contact</h2>
+      <ul>
+        <li><a href="http://www.facebook.com">Facebook</a></li>
+        <li><a href="http://www.github.com">GitHub</a></li>
+        <li><a href="http://www.instagram.com">Instagram</a></li>
+      </ul>
+      <form action="https://formsubmit.co/dillancdavids@gmail.com" method="POST">
+        <h4>Message</h4>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="user_name" required><br>
+        <label for="mail">Email:</label><br>
+        <input type="mail" id="mail" name="user_mail" required><br>
+        <input type="radio" id="experience" name="Subject" value="Experience">
+        <label for="experience">Experience</label><br>
+        <input type="radio" id="education" name="Subject" value="Education">
+        <label for="education">Education</label><br>
+        <input type="radio" id="Opportunity" name="Subject" value="Opportunity">
+        <label for="Opportunity">Opportunity</label><br>
+        <label for="msg">Message:</label><br>
+        <textarea name="user_message" id="msg"></textarea><br>
+        <input type="submit">
+      </form>
+    </footer>
+  </body>
+</html>
